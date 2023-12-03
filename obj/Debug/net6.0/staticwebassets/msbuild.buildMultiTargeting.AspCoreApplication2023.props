@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspCoreApplication2023.props" />
+</Project>

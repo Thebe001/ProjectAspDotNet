@@ -1,0 +1,10 @@
+﻿@model AspCoreApplication2023.Models.MovieCustomerModel
+
+<h2>Test Vue Index</h2>
+<h3>@Model.Movie.Name</h3>
+
+<h4>Customers:</h4>
+@foreach (var customer in Model.Customers)
+{
+    <p>@customer.Name</p>
+}
